@@ -1,4 +1,6 @@
+import distanceTwoPoints from "./distanceTwoPoints";
 import polygonContains from "./polygonContains";
+console.log(distanceTwoPoints(5.080947,-75.469360,5.071422,-75.606113));
 
 window.addEventListener('DOMContentLoaded', () => {
   function initMap() {
